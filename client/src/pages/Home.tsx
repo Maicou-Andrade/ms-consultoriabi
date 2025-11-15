@@ -18,18 +18,18 @@ export default function Home() {
   const siteLink = "https://msconsultoria.net.br/";
 
   const telas = [
-    { img: "/images/dashboard.png", title: "Dashboard de Performance", desc: "Visão 360° do negócio em tempo real", frase: "Enquanto você procura a informação, seu concorrente já lucrou" },
-    { img: "/images/evolucao.png", title: "Evolução Temporal", desc: "Antecipe o futuro analisando o passado", frase: "Quem não mede o passado, repete os mesmos erros caros" },
-    { img: "/images/checkout.png", title: "Análise de Checkout", desc: "Comportamento do cliente no detalhe", frase: "Achismo não paga conta. Dados sim" },
-    { img: "/images/comparativo.png", title: "Comparativo de Períodos", desc: "Compare e vença", frase: "Sem comparar, você nunca saberá quanto dinheiro perdeu" },
-    { img: "/images/rentabilidade.png", title: "Rentabilidade", desc: "Sua lucratividade em foco", frase: "Promoção sem dados é doar dinheiro para o cliente" },
-    { img: "/images/vendas.png", title: "Análise de Vendas", desc: "Cada produto, cada centavo conta", frase: "Dados não mentem. Seu palpite sim" },
-    { img: "/images/estoque.png", title: "Gestão de Estoque", desc: "Milhões sob controle", frase: "Estoque mal gerido sangra seu caixa todo santo dia" },
-    { img: "/images/compras.png", title: "Análise de Compras", desc: "Compre melhor, venda mais", frase: "Comprar no achismo é pagar mais caro para lucrar menos" },
-    { img: "/images/excesso.png", title: "Análise de Excesso", desc: "Transforme estoque em caixa", frase: "Estoque encalhado não é ativo. É prejuízo disfarçado" },
-    { img: "/images/ruptura.png", title: "Análise de Ruptura", desc: "Não perca mais vendas", frase: "Faltou produto? Você acabou de pagar a conta do concorrente" },
-    { img: "/images/sem_giro.png", title: "Produtos Sem Giro", desc: "Libere capital parado", frase: "Produto encalhado é dinheiro enterrado vivo no estoque" },
-    { img: "/images/reposicao.png", title: "Reposição Inteligente", desc: "Alertas automáticos", frase: "Palpite custa caro. Dados custam centavos" },
+    { img: "images/dashboard.png", title: "Dashboard de Performance", desc: "Visão 360° do negócio em tempo real", frase: "Enquanto você procura a informação, seu concorrente já lucrou" },
+    { img: "images/evolucao.png", title: "Evolução Temporal", desc: "Antecipe o futuro analisando o passado", frase: "Quem não mede o passado, repete os mesmos erros caros" },
+    { img: "images/checkout.png", title: "Análise de Checkout", desc: "Comportamento do cliente no detalhe", frase: "Achismo não paga conta. Dados sim" },
+    { img: "images/comparativo.png", title: "Comparativo de Períodos", desc: "Compare e vença", frase: "Sem comparar, você nunca saberá quanto dinheiro perdeu" },
+    { img: "images/rentabilidade.png", title: "Rentabilidade", desc: "Sua lucratividade em foco", frase: "Promoção sem dados é doar dinheiro para o cliente" },
+    { img: "images/vendas.png", title: "Análise de Vendas", desc: "Cada produto, cada centavo conta", frase: "Dados não mentem. Seu palpite sim" },
+    { img: "images/estoque.png", title: "Gestão de Estoque", desc: "Milhões sob controle", frase: "Estoque mal gerido sangra seu caixa todo santo dia" },
+    { img: "images/compras.png", title: "Análise de Compras", desc: "Compre melhor, venda mais", frase: "Comprar no achismo é pagar mais caro para lucrar menos" },
+    { img: "images/excesso.png", title: "Análise de Excesso", desc: "Transforme estoque em caixa", frase: "Estoque encalhado não é ativo. É prejuízo disfarçado" },
+    { img: "images/ruptura.png", title: "Análise de Ruptura", desc: "Não perca mais vendas", frase: "Faltou produto? Você acabou de pagar a conta do concorrente" },
+    { img: "images/sem_giro.png", title: "Produtos Sem Giro", desc: "Libere capital parado", frase: "Produto encalhado é dinheiro enterrado vivo no estoque" },
+    { img: "images/reposicao.png", title: "Reposição Inteligente", desc: "Alertas automáticos", frase: "Palpite custa caro. Dados custam centavos" },
   ];
 
   const beneficios = [
