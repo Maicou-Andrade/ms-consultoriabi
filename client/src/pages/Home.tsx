@@ -3,7 +3,7 @@ import { ArrowRight, Check, MessageCircle, Globe, Smartphone, Shield, Zap, Trend
 import { useEffect, useState } from "react";
 
 // Import images
-import logoImg from "@/assets/logo.png";
+import logoImg from "@/assets/logo.svg";
 import dashboardImg from "@/assets/images/dashboard.png";
 import evolucaoImg from "@/assets/images/evolucao.png";
 import checkoutImg from "@/assets/images/checkout.png";
