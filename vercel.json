@@ -1,7 +1,9 @@
 {
-  "buildCommand": "pnpm install && pnpm run build",
-  "outputDirectory": "dist",
-  "framework": "vite",
+  "buildCommand": "cd client && pnpm install && pnpm run build",
+  "outputDirectory": "client/dist",
+  "framework": null,
+  "installCommand": "cd client && pnpm install",
+  "devCommand": null,
   "rewrites": [
     {
       "source": "/(.*)",
