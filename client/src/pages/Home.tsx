@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { APP_LOGO } from "@/const";
 import { ArrowRight, Check, MessageCircle, Globe, Smartphone, Shield, Zap, TrendingUp, Users, Database } from "lucide-react";
 import { useEffect, useState } from "react";
 
 // Import images
+import logoImg from "@/assets/logo.png";
 import dashboardImg from "@/assets/images/dashboard.png";
 import evolucaoImg from "@/assets/images/evolucao.png";
 import checkoutImg from "@/assets/images/checkout.png";
@@ -61,7 +61,7 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={APP_LOGO} alt="MS Consultoria" className="h-12 w-auto" />
+            <img src={logoImg} alt="MS Consultoria" className="h-12 w-auto" />
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <button onClick={() => scrollToSection('beneficios')} className="text-muted-foreground hover:text-primary transition-colors">Benefícios</button>
@@ -325,7 +325,7 @@ export default function Home() {
       <footer className="py-12 border-t border-border">
         <div className="container text-center text-muted-foreground">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <img src={APP_LOGO} alt="MS Consultoria" className="h-8 w-auto" />
+            <img src={logoImg} alt="MS Consultoria" className="h-8 w-auto" />
           </div>
           <p>© 2025 MS Consultoria. Todos os direitos reservados.</p>
           <p className="mt-2 text-sm">Transformando dados em lucro desde sempre.</p>
