@@ -9,7 +9,7 @@ import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
 
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? '/ms-consultoriabi/' : '/',
+  base: '/',
   plugins,
   resolve: {
     alias: {
